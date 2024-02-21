@@ -1,0 +1,60 @@
+.about-me {
+border:2pt solid black;
+background-color:light salmon;
+padding:20px;
+}
+.about-me-content{
+display:flex;
+align-items:center;
+}
+.about-content h2 {
+font-weight:bold;
+font-family:'Times New Roman;,Times,serif;
+font-size: 13pt;
+text-align:left;
+}
+.about-me-content img{
+width:172pt;
+height:172pt;
+margin-left:auto;
+}
+.about-content p{
+font-family:sans-serif;
+color:blue;
+}
+.education{
+background-color:light blue;
+}
+.education table{
+border-collapse:collapse;
+width:100%
+border-spacing:10pt;
+}
+education th, .education td{
+padding:10pt;
+text-align:center;
+}
+education th{
+text-decoration:underline;
+}
+.iit-goa{
+display:flex;
+justify-content:space-between;
+}
+.education table{
+width:45%;
+border:3pt solid;
+}
+.semester ul{
+list-style-type:none;
+}
+
+.hobbies{
+color:blue;
+}
+body{
+background-image:url('gojo.jpeg');
+background-size:cover;
+}
+
+
